@@ -33,10 +33,10 @@ end
 row = 3
 column = 5
 matrix_stuff = [ORGANIC_PRODUCE, CONVENTIONAL_PRODUCE]
-puts matrix_lookup(matrix_stuff, row, column)
+matrix_lookup(matrix_stuff, row, column)
 
 def matrix_lookup(matrix, row, column)
-  matrix[row][column]
+  return matrix[row][column]
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
 end
