@@ -32,7 +32,7 @@ def sorted_matrix
 end
 row = 2
 column = 2
-test_matrix = [["Mace", "Ginger", "Marjoram"],["Paprika", "Fajita Mix", "Coriandar"]]
+test_matrix = [["Grapefruit", "Pineapple", "Oranges", "Watermelon","Eggplant"],["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]]
 def matrix_lookup(matrix, row, column)
   
   matrix[row][column]
