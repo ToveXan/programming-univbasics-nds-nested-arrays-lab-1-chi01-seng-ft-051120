@@ -34,7 +34,7 @@ row = 3
 column = 5
 test_matrix = [["Mace", "Ginger", "Marjoram"],[["Paprika", "Fajita Mix", "Coriandar"]]
 def matrix_lookup(matrix, row, column)
-  return matrix[row][column]
+  matrix[row][column]
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
 end
