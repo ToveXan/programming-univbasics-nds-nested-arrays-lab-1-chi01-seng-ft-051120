@@ -32,14 +32,13 @@ def sorted_matrix
 end
 row = 3
 column = 5
-matrix_lookup(assembled_matrix, row, column)
 
 def matrix_lookup(matrix, row, column)
   return matrix[row][column]
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
 end
-
+matrix_lookup(assembled_matrix, row, column)
 def matrix_update(matrix, row, column, new_value)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Update the matrix location at that row and column to have the value of new_value
