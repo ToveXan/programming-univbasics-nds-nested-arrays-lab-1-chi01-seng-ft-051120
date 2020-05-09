@@ -48,4 +48,4 @@ def matrix_update(matrix, row, column, new_value)
   # Return the updated matrix
 end
 
-matrix_update(test_matrix, 0, 2, matrix_update(matrix, row, column, new_value))
+matrix_update(test_matrix, 0, 2, )
