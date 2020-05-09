@@ -33,7 +33,7 @@ end
 row = 3
 column = 5
 matrix_stuff = [ORGANIC_PRODUCE, CONVENTIONAL_PRODUCE]
-matrix_update(matrix_stuff, row, column)
+matrix_lookup(matrix_stuff, row, column)
 
 def matrix_lookup(matrix, row, column)
   matrix[row][column]
