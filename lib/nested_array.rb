@@ -30,10 +30,11 @@ def sorted_matrix
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
 end
-row = 3
+row = 2
 column = 2
 test_matrix = [["Mace", "Ginger", "Marjoram"],["Paprika", "Fajita Mix", "Coriandar"]]
 def matrix_lookup(matrix, row, column)
+  
   matrix[row][column]
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
