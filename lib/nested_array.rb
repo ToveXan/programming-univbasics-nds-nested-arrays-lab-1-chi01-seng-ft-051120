@@ -30,13 +30,13 @@ def sorted_matrix
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
 end
-row = 8
+row = 3
 column = 5
 matrix_stuff = [ORGANIC_PRODUCE, CONVENTIONAL_PRODUCE]
 matrix_update(matrix_stuff, row, column)
 
 def matrix_lookup(matrix, row, column)
-  return matrix[row][column]
+  matrix[row][column]
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
 end
