@@ -32,7 +32,7 @@ def sorted_matrix
 end
 row = 3
 column = 2
-test_matrix = [["Mace", "Ginger", "Marjoram"],[["Paprika", "Fajita Mix", "Coriandar"]]
+test_matrix = [["Mace", "Ginger", "Marjoram"],["Paprika", "Fajita Mix", "Coriandar"]]
 def matrix_lookup(matrix, row, column)
   matrix[row][column]
   # Given any matrix (array of arrays), a row index and a column index, 
