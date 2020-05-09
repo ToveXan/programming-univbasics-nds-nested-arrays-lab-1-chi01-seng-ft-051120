@@ -32,8 +32,7 @@ def sorted_matrix
 end
 row = 3
 column = 5
-matrix_stuff = [[ORGANIC_PRODUCE], [CONVENTIONAL_PRODUCE]]
-matrix_lookup(matrix_stuff, row, column)
+matrix_lookup(assembled_matrix, row, column)
 
 def matrix_lookup(matrix, row, column)
   return matrix[row][column]
